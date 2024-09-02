@@ -59,5 +59,5 @@ The [http://localhost:3003/docs](http://localhost:3003/docs) page lists the avai
 docker pull ghcr.io/arsalanr24/bcgov_image:latest
 docker run -d ghcr.io/arsalanr24/bcgov_image:latest
 
-
-Pulling and Running the ImagePulling and Running the Image
+Triggering the Workflow
+The workflow triggers automatically on pushes or pull requests to the main branch.
