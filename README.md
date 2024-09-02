@@ -52,3 +52,12 @@ This is a simple API. It is not production ready.
 The API is based on the table schema defined in [V1.0.0__init.sql](db/migrations/V1.0.0__init.sql) file. Note the foreign key constraint if you want to try the endpoints out.
 
 The [http://localhost:3003/docs](http://localhost:3003/docs) page lists the available endpoints.
+
+
+## Pulling and Running the Image
+
+docker pull ghcr.io/arsalanr24/bcgov_image:latest
+docker run -d ghcr.io/arsalanr24/bcgov_image:latest
+
+
+Pulling and Running the ImagePulling and Running the Image
